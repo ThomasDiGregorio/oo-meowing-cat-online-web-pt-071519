@@ -1,1 +1,9 @@
-## code your solution here. 
+class Cat 
+  attr_accessor :name 
+  def speak 
+    puts "meow!"
+  end
+end
+
+morris= Cat.new 
+morris.meow
